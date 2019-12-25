@@ -1,0 +1,150 @@
+body {
+	background: #eee !important;	
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  max-width: 75%;
+}
+
+.App-home {
+  text-align: left;
+  color: black;
+}
+
+.App-logout {
+  text-align: right;
+  color: black;
+}
+
+.home-size{
+  max-width: 15%;
+}
+
+.logout-size{
+  max-width: 7%;
+}
+
+.App-header {
+  height: 150px;
+  padding: 10px;
+  color: white;
+}
+
+.view-group{
+  text-align: center;
+  padding-left: 40%;
+  padding-top: 5px;
+}
+
+.view-header{
+  left: 30%;
+  padding-top: 5px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.btn-warning {
+    height: 100px; width: 200px;
+    margin-bottom: 20px;
+    margin-top:20px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.form-search-container{
+  max-width: 1224px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+}
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+}
+
+.form-control-signin {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+.form-control-option{
+  position: relative;
+  font-size: 16px;
+  height: 45px;
+  padding: 10px;
+}
+
+.form-signin-heading{
+  margin-bottom: 30px;
+}
+
+.msg-error{
+  color: red;
+  font-size: 12px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.clearline{
+  border-top: 1px solid #e5e5e5;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.txtheader{
+  text-align: center !important; 
+  margin-bottom: 1% !important;
+}
+
+.width45{
+  margin-bottom: 15px;
+  width: 45%;
+}
+
+.react-datepicker__input-container {
+  display: inline !important;
+}
+
+.input-error{
+  border-color: #a94442;
+}
+
+.modal-alert-danger{
+  color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+@page{
+  size: auto A4 landscape;
+  margin: 5mm;
+}
+@media print {
+    .form-search-container {display: none;}
+    .App-logo {display: none;}
+    .App-header {display: none;}
+}
+.container-print {
+  text-align: left;
+}
+@media screen{
+    .container-print {display: none;}
+}
